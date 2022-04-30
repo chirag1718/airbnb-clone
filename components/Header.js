@@ -1,7 +1,7 @@
 import Image from "next/image";
 import {SearchIcon, GlobeAltIcon, MenuIcon, UserCircleIcon} from '@heroicons/react/solid'
 
-export default function () {
+ function Header() {
   return (
     <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md py-5 px-5 md:px-10">
       {/*left  */}
@@ -35,3 +35,4 @@ export default function () {
     </header>
   );
 }
+export default Header
