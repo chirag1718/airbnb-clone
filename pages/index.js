@@ -3,12 +3,16 @@ import Header from "../components/Header";
 import Banner from "../components/Banner";
 import SmallCard from "../components/SmallCard";
 import MediumCard from "../components/MediumCard";
+import LargeCard from "../components/LargeCard";
+import Footer from "../components/Footer";
+import { HeartIcon } from "@heroicons/react/solid";
+
 
 export default function Home({ exploreData, cardsData }) {
   return (
     <div className="">
       <Head>
-        <title>Swishy Airbnb</title>
+        <title>Airbnb</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -42,7 +46,21 @@ export default function Home({ exploreData, cardsData }) {
             ))}
           </div>
         </section>
+
+        {/* large card */}
+        <LargeCard
+          img="https://links.papareact.com/4cj"
+          title="The greatest outdoors"
+          discription="Wishlists curated by Airbnb"
+          buttonText="Get inspired"
+        />
       </main>
+
+      <Footer />
+
+      <section className="font-sans flex items-center justify-center py-2">
+          <p >Made with </p><HeartIcon className="h-6 fill-red-700"/><p> Chirag Sonar</p>
+      </section>
     </div>
   );
 }
