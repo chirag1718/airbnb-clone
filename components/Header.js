@@ -9,6 +9,7 @@ import {SearchIcon, GlobeAltIcon, MenuIcon, UserCircleIcon} from '@heroicons/rea
         <Image
           src="https://links.papareact.com/qd3"
           layout="fill"
+          alt="#"
           objectFit="contain"
           objectPosition="left"
         />
