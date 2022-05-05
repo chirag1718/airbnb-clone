@@ -58,8 +58,8 @@ export default function Home({ exploreData, cardsData }) {
 
       <Footer />
 
-      <section className="font-sansj flex items-center justify-center py-2">
-          <p >Made with </p><HeartIcon className="h-6 fill-red-700"/><p> Chirag Sonar</p>
+      <section className="font-sans flex items-center justify-center py-2">
+          <p >Made with</p><HeartIcon className="h-6 fill-red-700 px-1"/><p>by Chirag Sonar</p>
       </section>
     </div>
   );
