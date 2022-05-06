@@ -13,6 +13,7 @@ return (
           layout="fill"
           objectFit="cover"
           className="rounded-2xl"
+          alt="#"
         />
       </div>
 
